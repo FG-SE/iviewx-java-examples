@@ -1,13 +1,13 @@
-group 'de.unihannover.se'
+group 'de.unihannover.se.iviewxjava'
 
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'de.unihannover.se.iviewxjava:iviewx-java:0.1.1'
 }

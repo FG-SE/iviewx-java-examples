@@ -36,7 +36,7 @@ public class IViewXEventApp {
                     // Print the event information
                     ETEvent event = response.getData();
                     System.out.println(String.format(
-                            "%tQ, %tQ, %s, %.f2, %.2f",
+                            "%tQ, %tQ, %s, %.2f, %.2f",
                             event.getStartTime(),
                             event.getEndTime(),
                             eyeToString(event.getEye()),

@@ -5,8 +5,8 @@ import de.unihannover.se.iviewxjava.iviewx.data.ETEvent;
 import de.unihannover.se.iviewxjava.iviewx.data.ETEye;
 
 /** This app showcases, how you can connect to the SMI IView
- *  Eyetracking Server and use the ETSampleReceiver to retrieve
- *  eyetracking samples from the eyetracker.
+ *  Eyetracking Server and use the ETEventReceiver to retrieve
+ *  eyetracking events from the eyetracker.
  */
 
 public class IViewXEventApp {

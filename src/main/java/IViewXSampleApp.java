@@ -3,6 +3,11 @@ import de.unihannover.se.iviewxjava.core.receiver.response.ETResponse;
 import de.unihannover.se.iviewxjava.iviewx.IViewX;
 import de.unihannover.se.iviewxjava.iviewx.data.ETSample;
 
+/** This app showcases, how you can connect to the SMI IView
+ *  Eyetracking Server and use the ETSampleReceiver to retrieve
+ *  eyetracking samples from the eyetracker.
+ */
+
 public class IViewXSampleApp {
 
     public static void main(String[] args) {
